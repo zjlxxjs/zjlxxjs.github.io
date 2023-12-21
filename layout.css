@@ -1,0 +1,10 @@
+.center {
+    display: block;
+    margin: auto;
+    height: 108;
+    width: 194;
+}
+
+.title {
+    text-align: center;
+}
