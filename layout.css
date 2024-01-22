@@ -8,3 +8,10 @@
 .title {
     text-align: center;
 }
+
+.navbar {
+	text-align : center;
+	text-decoration : none;
+	border : 0px none;
+	color : White;
+}
