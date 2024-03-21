@@ -14,7 +14,23 @@
 		var now = new Date();
                 var str = now.toLocaleDateString() + ' ' + now.toLocaleTimeString();
                 document.write(str);
-        </script>
+    </script>
+		<p>-------------------</p>
+		<a href="https://github.com/hzpt-inet-club/clock"> hzpt-inet-club's clock </a>
+		<div class="clock">
+			<div class="outer-clock-face">
+				<div class="marking marking-one"></div>
+				<div class="marking marking-two"></div>
+				<div class="marking marking-three"></div>
+				<div class="marking marking-four"></div>    
+			</div>
+			<div class="inner-clock-face">
+				<div class="hand hour-hand"></div>
+				<div class="hand min-hand"></div>
+				<div class="hand second-hand"></div>
+			</div>
+		</div>
+		<p>-------------------</p>
 		<p>-------------------</p>
 		<svg 
           width="100"
@@ -57,6 +73,6 @@
 		<p class="navbar">
 			<a href="index.html"><img src="media/home.gif" alt="Home" width="81" height="39" border="0" /></a>
 		</p>
-
 	</body>
+	<script type="text/javascript" src="index.js"></script>
 </html>
